@@ -1,0 +1,61 @@
+Name: Duncan McFarlane
+Course: COMSC-110-1021
+
+1. Objective
+To calculate the average height of all the people in the room
+2. Requirements
+INPUT:
+-Hight of every person
+-number of people
+
+PROCESSING:
+1 Getting each height of everyone in the room.
+2. Getting the total # of people
+3. Sum the hight of all the people in the room.
+4. Dividing the sum of height by the number of people in the room.
+
+OUTPUT:
+average
+
+DATA:(name of data item, definition, data type, valid values
+count = Number of people in the room (whole number)
+hieght = number of feet tall of a person (Whole Number)(0-9)
+sum = total of the height of all people in the room (Whole number)
+average = average age of all the people in the room (decimal)
+
+3. Instructions
+10 output introduction
+15 set sum = 0
+16 set count = 0
+17 set average = 0
+** getting the height of everyone in the room **
+**getting the total number of people in the room**
+**summed all the heights of the people in the room**
+20 output prompt "what is your height"
+30 input height
+40 set sum = sum + height
+50 set count = count + 1
+60 If their are uncounted people left in the room then skip to the calculated people
+70 set average = sum/count
+80 output lable "the average height of everyone in the room is "
+90 Done
+
+
+4. Test Cases
+Test Case#1:
+ What is being tested: two people one is 6 foot one is 5 foot
+ and  Input values if any: 6,5
+10 Introduction
+11 sum=0
+12 count = 0
+13 average = 0
+20 what is your height
+30 input height
+31 sum = 6
+32 count = 1
+40 what is your height 
+30 input height
+31 sum = 11
+32 count = 2
+33 average = 5.5
+34 done

@@ -1,0 +1,48 @@
+Name: Duncan McFarlane
+Course: COMSC-110-1021
+
+1. Objective
+Calculate the average height of all the people in the room.
+2. Requirements
+INPUT:
+-count
+-age
+
+
+PROCESSING: (list of the major parts of the objective)
+1 Getting the firt number input
+2. get the type of operation the user wants to do
+3. get the second number input
+4. output with that output.
+
+
+OUTPUT:
+
+-result of operations
+
+DATA:(name of data item, definition, data type, valid values
+firstnumber = the first number input
+second number = the second number input
+operation = the type of operation to do (+,/,-,*)
+
+3. Instructions (recipe) a simple calculator by Duncan Mcfarlane
+10 output introduction
+15 ask user for first input
+16 ask user for the type of operation
+17 ask user for second input
+20 do the operation on the two inputs
+30 output results of 20
+40 Done
+
+
+4. Test Cases
+Test Case#1:
+What is being tested:    
+Input values if any: numbers are 2 and 8 and operand is +
+And expected result: =10
+10: intro
+20 ask for input
+30 ask for operation
+40 ask for second number
+50 2+8 = 10
+60 the awnser is 10
