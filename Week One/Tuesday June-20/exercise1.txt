@@ -1,0 +1,25 @@
+By Duncan McFarlane
+Class: COMPSCI 110-1021
+The three control structures are Sequence, Selection,and repetition and looping
+the selection control struction tests a condition given to it 
+the repitiion control structure tests if something is true and if it is then tests itself again.
+the sequence control structure executes a series of things in an order.
+
+3 kinds of programming errors are 
+	Runtime errors which are when you ask the computer something that it can not do 
+		example: of this is asking it to devide something by 0.
+	Logic Errors are errors that produce a ininteneded result due to issues withe the logic of the code
+		example: you want it to get the sum of 3+4 but instead get an output of -1
+	Syntax Errors are errors related to the formatting and syntax of your code.
+		example: not putting quotes around a string so it is processed as a variable.
+
+The five functions of all computers are Input, processing, output, store data, and communicate.
+
+A statement is a complete instruction and and expresion is a part of a complete statement. the diffrence between the two is in their scale.
+
+the 2 major catagories of software is system and application
+the 3 subcatagories for system are operating system, language translator, and utilities'
+the 3 subcatagories for application are entertainment, productivity, and utilities
+
+the three language translators are a compiler which translates normal code to lower lever language
+an assembler which translate assembly into machine code and an interprester which translates high level launguage to low level language.

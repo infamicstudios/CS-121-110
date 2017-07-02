@@ -1,0 +1,67 @@
+Name: Duncan McFarlane
+Course: COMSC-110-1021
+
+1. Objective
+calculate how many days old you will be by the due date of this assignment.
+2. Requirements
+INPUT:
+-due date of assignment
+-birth date
+-current date
+-current year
+-birth year
+-days of birth year
+-days of current year
+PROCESSING:
+1. get the birth date of the user
+2. get the current date
+3. get the due date of the assignment
+4. subtract current year by birth year this is years alive
+5. devide years alive by 4 this is leap years
+4. devide years alive by 365 + (1*leap years) this is days 
+5. add days in birth date to result of ^
+6. Subtract from "days" the number of days remaining in the current year after the
+due date.
+
+OUTPUT:
+Days alive
+
+DATA:
+days = amount of days alive of the person
+duedate = the day it is due
+current date = the current date
+birth year = the year I was born
+current year = the current year
+birth date = the date I was born on
+
+
+3. Instructions (recipe)
+10 set age = 0
+20 set days = 0
+30 set current date = 0
+40 set birth date = 0
+50 set current year = 0
+60 set birth year = 0
+70 ask user for year of birth
+80 birth year = result of 70
+90 ask user for current year
+100 make current year = result of 90
+110 subtract birth year from current year
+120 make protodays = result of 110
+130 devide protodays by 4
+140 devide protodays by 365 = days
+150 add result of 130 to days
+160 ask user for days of birth year
+170 make DOBY= result of 160
+180 ask user for days of due date
+190 subtract DOBY by results of 180
+200 add results of 190 to days
+210 output date of birth
+220 output due date
+230 output days
+
+4. Test Cases
+Test Case#1: 
+What is being tested:     
+Input values if any: 	
+And expected result:

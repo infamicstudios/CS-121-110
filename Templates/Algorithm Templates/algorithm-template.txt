@@ -1,0 +1,27 @@
+Name: Duncan McFarlane
+Course: COMSC-110-1021
+
+1. Objective
+
+
+2. Requirements
+INPUT:
+
+
+PROCESSING:
+
+
+OUTPUT:
+
+
+DATA:
+
+
+3. Instructions (recipe)
+10
+
+4. Test Cases
+Test Case#1: 
+What is being tested:     
+Input values if any: 	
+And expected result:

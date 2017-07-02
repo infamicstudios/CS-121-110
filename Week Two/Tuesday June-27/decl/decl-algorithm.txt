@@ -1,0 +1,131 @@
+Name: Duncan McFarlane
+Course: COMSC-110-1021
+
+1. Objective
+Calculate the average age of all the people in the room.
+2. Requirements
+INPUT:
+-lucky number (integer)
+-favorite movie (text)
+-age (decimal)
+-first letter in name (single charecter)
+
+PROCESSING:
+intro
+input for lucky number
+input for favorite movie
+input for age
+first letter in name = results of 140
+output
+OUTPUT:
+-into
+-objective
+-author
+-lucky number prompt
+-lucky number label
+-lucky number
+-favorite movie prompt
+-favorite movie label
+-favorite movie
+-age prompt
+-age label
+-age
+-first letter in name prompt
+-first letter in name label
+-first letter in name
+
+DATA:
+intro= a basic explination of how the program works
+author = the person who wrote the program (thats me!)
+objective = the goal/ objective of the program
+lucky number prompt = the prompt for the lucky number self explanitory
+lucky number label = the output label for the lucky number
+lucky number = the user submitted lucky number
+favorite movie prompt = the prompt for the favorite movie
+favorite movie label = the output label for the favorite movie, explains to user what their favorite movie is
+favorite movie = the user inputted favorite movie
+age prompt = the prompt for the users age
+age label = the output label for the users age 
+age = the output of the age of the user
+first letter in name prompt = the prompt for the first letter in the users name 
+first letter in name label = the output label exaplining to the user the first letter in their name
+first letter in name = the actual first letter in the users name from the users input
+
+3. Instructions (recipe)
+10 intro
+20 objective
+30 author
+40 prompt for lucky number
+50 input for lucky number
+60 lucky number = results of 50
+70 prompt for favorite movie
+80 input for favorite movie
+90 favorite movie = results of 80
+100 prompt for age
+110 input for age
+120 age = results of 110
+130 prompt for first letter in name
+140 input for first letter in name
+150 first letter in name = results of 140
+
+4. Test Cases
+Test Case#1: a test case for me
+What is being tested: my personal choices for this to see if it works with user input   
+Input values if any: 	
+lucky number = 4
+favorite movie = kill bill
+age = 16
+first letter in name = D
+And expected result: favorite number :4, favorite movie : kill bill, age: 16, first letter in name = D.
+10 intro
+20 objective
+30 Duncan Mcfarlane
+40 what is your lucky number?
+50 4
+60 lucky number = 4
+70 what is your favorite movie
+80 kill bill
+90 favorite movie = kill bill
+100 how old are you
+110 16
+120 age = 16
+130 what is the first letter in your name?
+140 D
+150 first letter in name = D
+160 Your lucky number is 4
+170 your favorite movie is kill bill
+180 you are 16
+190 and the first letter in your name is D
+
+4. Test Cases
+Test Case#2:
+What is being tested: invalid input  
+Input values if any: 	
+lucky number = -4
+favorite movie = NO INPUT
+age = 400
+first letter in name = Duncan
+And expected result: favorite number :-4, favorite movie : , age: -4, first letter in name = Duncan.
+10 intro
+20 objective
+30 Duncan Mcfarlane
+40 what is your lucky number?
+50 -4
+60 lucky number = -4
+70 what is your favorite movie
+80 
+90 favorite movie = 
+100 how old are you
+110 -4
+120 age = -4
+130 what is the first letter in your name?
+140 Duncan
+150 first letter in name = Duncan
+160 Your lucky number is -4
+170 your favorite movie is 
+180 you are -4
+190 and the first letter in your name is Duncan
+
+
+
+

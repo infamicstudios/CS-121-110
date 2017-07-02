@@ -1,0 +1,93 @@
+Name: Duncan McFarlane
+Course: COMSC-110-1021
+
+1. Objective
+Calculate the average age of all the people in the room.
+2. Requirements
+INPUT:
+-count
+-age
+
+
+PROCESSING: (list of the major parts of the objective)
+1 Getting each age of everyone in the room.
+2. Getting the total # of people
+3. Sum the age of all the people in the room.
+4. Dividing the sum of ages by the number of people in the room.
+
+
+OUTPUT:
+
+-average
+
+DATA:(name of data item, definition, data type, valid values
+count = Number of people in the room (whole number)
+age = number of years old of person in the room (Whole Number)(0-122)
+sum = total of all ages of all people in the room (Whole number)
+average = average age of all the people in the room (decimal)
+
+3. Instructions (recipe) calculate the average age of everyone in the room by Duncan Mcfarlane and COMPSC 1021-110
+10 output introduction
+15 set sum = 0
+16 set count = 0
+17 set average = 0
+** getting the age of everyone in the room **
+**getting the total number of people in the room**
+**summed all the ages of the people in the room**
+20 output prompt "what is your age"
+30 input age
+40 set sum = sum + age
+50 set count = count + 1
+60 if their are uncounted proplr left in the room then skip to the calculated people
+70 set average = sum/count
+80 output lable "the average age of everyone in the room is "
+90 Done
+
+
+4. Test Cases
+Test Case#1:
+What is being tested: their are 3 people in the room.    
+Input values if any: ages are 21, 31, 41	
+And expected result = count = 3, sum =93, average = 31
+15 sum =0
+16 count = 0
+17 average = 0
+20 What is your age?
+30 age =21
+40 sum = 0+1=1
+60 skip to instruction 20
+30 age = 31
+sum =21+31=52
+50 count = 1+1=2
+60 true so skip to instruction 20
+20 what is your age
+30 age = 41
+40 sum = 52+41=93
+50 Count = 2+1=3
+60 false
+70 average = 93 /3 = 31
+80 the average age of everyone is 31
+90 Done
+
+Test case #2: invalid age
+there are 3 people in the room
+input: ages are -1, 20, and 10
+15 sum =0
+16 count = 0
+17 average = 0
+20 What is your age?
+30 age = -1
+40 sum = -1
+60 skip to instruction 20
+30 invalid number
+
+Test case #2: decimal age
+there are 3 people in the room
+input: ages are 1.25, 20, and 10
+15 sum =0
+16 count = 0
+17 average = 0
+20 What is your age?
+30 age = 1.25
+40 sum = 1.25
+30 invalid number must be a whole number.

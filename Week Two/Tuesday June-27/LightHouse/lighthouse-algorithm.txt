@@ -1,0 +1,47 @@
+Name: Duncan McFarlane
+Course: COMSC-110-1021
+
+1. Objective 
+determine how far away a boat can see a lighthouse at sea. 
+
+2. Requirements
+INPUT: hight of the lighthouse
+
+PROCESSING:
+intro
+input of height of lighthouse
+calculation on height
+output
+
+DATA:
+miles=squareroot of (.8*lighthouseheight)
+LHH= lighthouse Height
+
+3. Instructions (recipe)
+10 objective
+20 author
+30 prompt for LHH
+40 miles=squareroot of (.8*LHH)
+50 label for user inputed height
+60 label for distance 
+70 output
+
+4. Test Cases
+Test Case#1: basic test case 
+What is being tested: standard numbers
+Input values if any: 100.001
+And expected result: 9
+10 objective
+20 author
+30 prompt for LHH
+40 100.001
+50 LHH = 100.001
+60 8.94427 = square root (0.8*100)
+70 a 100.001 foot tall lighthouse can be seen from
+80 8.94427
+90 miles away
+
+
+
+
+
