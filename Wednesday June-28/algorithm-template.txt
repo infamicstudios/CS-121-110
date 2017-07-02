@@ -1,0 +1,55 @@
+Name: Duncan McFarlane
+Course: COMSC-110-1021
+
+1. Objective
+guess a number between 1 and 10.
+2. Requirements
+INPUT:
+-userguess
+
+PROCESSING:
+-intro
+-generate RNG
+-imput
+-validate input
+-respond to user based on input
+
+OUTPUT:
+-whether guess was correct
+-if the guess was between 1 & 10 then say if user was wrong or right.
+
+DATA:
+RNG = a random number between 1 & 10
+userGuess = the users guess of the RNG
+
+3. Instructions (recipe)
+10 intro
+20 objective
+30 generate random number
+40 ask user to guess a number between 1 & 10
+50 validate input
+60 if input is invalid skip to 40 with text saying that was not between 1 & 10
+70 if input is correct skip to 80
+80 good job you guessed the number
+
+4. Test Cases
+Test Case#1: normal input
+What is being tested: normal expected input  
+Input values if any: guess = 9
+And expected result: inccorect guess because RNG = 3
+10 This program generatres a number between 1 & 10 that you have to guess!
+20 can you guess the number i am thinking of?
+30 what is your guess?
+40 9 
+50 sorry but that was wrong please try again
+
+4. Test Cases
+Test Case#2: invalid input
+What is being tested: invalid input  
+Input values if any: guess = 12
+And expected result: inccorect guess because RNG = 3
+10 This program generatres a number between 1 & 10 that you have to guess!
+20 can you guess the number i am thinking of?
+30 what is your guess?
+40 12
+50 sorry but i am looking for a number between 1 & 10
